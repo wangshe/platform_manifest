@@ -101,6 +101,7 @@
   <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" remote="github" revision="cm-14.0" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-14.0" />
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" revision="cm-14.0" remote="github" />
+
   <!--AOSP -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
