@@ -72,6 +72,7 @@
   <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" revision="cm-14.0" remote="github" />
   <project path="vendor/codeaurora/telephony" name="CyanogenMod/android_vendor_codeaurora_telephony" revision="cm-14.0" remote="github" />
   <project path="vendor/qcom/opensource/bluetooth" name="CyanogenMod/android_packages_apps_BluetoothExt" revision="cm-14.0" remote="github" />
+  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-14.0" />
   <project path="external/htop" name="CyanogenMod/android_external_htop" revision="cm-14.0" remote="github" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" revision="cm-14.0" remote="github" />
   <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" revision="cm-14.0" remote="github" />
