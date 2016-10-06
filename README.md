@@ -1,4 +1,4 @@
-# Aodroid 6.0
+# Aodroid 7.0
 
 repo init -u git://github.com/wangshe/platform_manifest.git -b nougat
 
