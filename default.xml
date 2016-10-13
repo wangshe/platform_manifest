@@ -3,22 +3,22 @@
 
   <remote  name="github"
            fetch="git://github.com/" />
-           
+
   <remote  name="aosp"
-           fetch="git://mirrors.ustc.edu.cn/aosp/" />
-	   
+           fetch="https://aosp.tuna.tsinghua.edu.cn/" />
+
   <default revision="refs/tags/android-7.0.0_r14"
            remote="aosp"
            sync-j="4"
            sync-c="true"
            sync-f="true"
            sync-q="true" />
-		   
+
   <!-- GitHub -->
-  <project path="build" name="platform_build" groups="pdk,tradefed" remote="github" revision="nougat" >
+  <project path="build" name="AOSP-RRO/platform_build" groups="pdk,tradefed" remote="github" revision="nougat" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed" remote="github" revision="nougat" />
+  <project path="build/kati" name="AOSP-RRO/platform_build_kati" groups="pdk,tradefed" remote="github" revision="nougat" />
   <project path="development" name="AOSP-RRO/platform_development" groups="pdk-cw-fs,pdk-fs" remote="github" revision="nougat" />
   <project path="dalvik" name="AOSP-RRO/platform_dalvik" groups="pdk-cw-fs,pdk-fs" remote="github" revision="nougat" />
   <project path="bootable/recovery" name="AOSP-RRO/platform_bootable_recovery" groups="pdk" remote="github" revision="nougat" />
@@ -84,7 +84,7 @@
   <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" groups="pdk" remote="github" revision="cm-14.0" />
   <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" groups="pdk" remote="github" revision="cm-14.0" />
   <project path="external/tinycompress" name="CyanogenMod/android_external_tinycompress" groups="pdk" remote="github" revision="cm-14.0" />
-  <project path="external/toybox" name="CyanogenMod/android_external_toybox" groups="pdk" remote="github" revision="cm-14.0" />  
+  <project path="external/toybox" name="CyanogenMod/android_external_toybox" groups="pdk" remote="github" revision="cm-14.0" />
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" remote="github" revision="cm-14.0" />
   <project path="external/brctl" name="CyanogenMod/android_external_brctl" revision="cm-14.0" remote="github" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" revision="cm-14.0" remote="github" />
@@ -475,16 +475,7 @@
   <project path="system/weaved" name="platform/system/weaved" />
   <project path="system/webservd" name="platform/system/webservd" />
   <project path="toolchain/binutils" name="toolchain/binutils" />
-  <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
-  <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
-  <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" />
-  <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
-  <project path="tools/loganalysis" name="platform/tools/loganalysis" groups="notdefault,tradefed" />
-  <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
-  <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
-  <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
-  <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 </manifest>
