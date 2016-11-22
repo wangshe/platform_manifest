@@ -31,7 +31,7 @@
   <project path="external/toybox" name="AdrianDC/aosp_development_sony8960" remote="github" revision="external_toybox" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-14.1" />
   <project path="frameworks/av" name="AdrianDC/aosp_development_sony8960" remote="github" revision="frameworks_av" />
-  <project path="frameworks/base" name="AdrianDC/platform_frameworks_base" remote="github" revision="master" />
+  <project path="frameworks/base" name="AdrianDC/platform_frameworks_base" remote="github" revision="frameworks_base" />
   <project path="frameworks/native" name="AdrianDC/aosp_development_sony8960" remote="github" revision="frameworks_native" />
   <project path="frameworks/opt/telephony" name="AdrianDC/aosp_development_sony8960" remote="github" revision="frameworks_opt_telephony" />
   <project path="hardware/qcom/audio" name="AdrianDC/aosp_development_sony8960" remote="github" revision="hardware_qcom_audio" />
