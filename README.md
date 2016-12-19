@@ -1,6 +1,6 @@
 # Aodroid 7.1
 
-repo init -u git://github.com/wangshe/platform_manifest.git -b nougat
+repo init -u git://github.com/wangshe/platform_manifest.git -b android-7.1
 
 repo sync
 
